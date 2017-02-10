@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - prints if random number is positive or negative
+/**
+ *  main - Distinguishes random number positive, negative, or zero
  *
- * Description: prints based on if else statement
- * Return: 0
-*/
+ *  Description: Uses conditional statements
+ *  Return: returns 0
+ */
 int main(void)
 {
 	int n;
