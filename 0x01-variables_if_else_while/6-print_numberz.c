@@ -3,8 +3,7 @@
 /**
  * main - prints base 10 with putchar
  *
- * Description: Use for loop and
- * putchar all numbers from 0-9
+ * Description: Use while putchar
  * Return: returns 0
  */
 int main(void)
