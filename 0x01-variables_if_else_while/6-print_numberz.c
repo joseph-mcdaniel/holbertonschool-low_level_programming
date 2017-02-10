@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print all numbers of base 10 the newline
- * using putchar
+ * main - prints base 10 with putchar
  *
- * Description: For loop, putchar to print base 10
+ * Description: Use for loop and
+ * putchar all numbers from 0-9
  * Return: returns 0
  */
 int main(void)
