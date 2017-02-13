@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - etc, etc
+ * main - while with nested loop
  *
  * Description: Print combination only once
  * Return: returns 0
