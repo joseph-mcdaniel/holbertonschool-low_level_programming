@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * _abs - compute abs value
- * @int: Input value
+ * _abs - Print abs value
+ * @n: Input value
  *
- * Description: Prints abs value
- * Return: 0
+ * Description: Use conditional
+ * Return: n
  */
 
 int _abs(int n)
