@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - prints sum
- * @i: input value of multiple
- * @sum: sum of multiples
  *
+ * Description: sum prints outside
+ * for loop
  * Return: 0
  */
 
