@@ -2,7 +2,7 @@
 /**
  * _islower - checks for
  * lowercase character
- * (int c) - parameter set
+ * @c: parameter set
  * Description: Use conditional to
  * check if 'c' is lowercase
  * Return: returns 1 if c, 0 otherwise
