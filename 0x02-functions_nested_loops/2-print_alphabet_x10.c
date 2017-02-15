@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * main - print lowercase alphabet
- * ten times
- * Description: nested for loop
+ * print_alphabet_x10 - print
+ * 10 times
  *
- * Return: return 0
+ * Description: Use while loops
+ * Return: return none
  */
 void print_alphabet_x10(void)
 {
@@ -24,5 +24,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		n++;
 	}
-	return;
 }
