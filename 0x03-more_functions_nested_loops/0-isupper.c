@@ -11,8 +11,10 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else
+	else if (c <= 'z')
 	{
 		return (0);
-			}
+	}
+	else
+		return (0);
 }
