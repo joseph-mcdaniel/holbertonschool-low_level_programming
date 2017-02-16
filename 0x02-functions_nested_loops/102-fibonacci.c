@@ -14,13 +14,14 @@ int main(void)
 	{
 		fib3 = fib1 + fib2;
 		count++;
-		printf("%ld, ", fib3);
 		fib1 = fib2;
 		fib2 = fib3;
 		if (count == num)
 		{
 			printf("%ld", fib3);
 		}
+		else 
+			printf("%ld, ", fib3);
 	}
 	printf("\n");
 	return (0);
