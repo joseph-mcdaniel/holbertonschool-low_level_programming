@@ -6,7 +6,7 @@
  * increment to first 50
  * Return: 0
  */
-void main(void)
+int main(void)
 {
 	long int fib1 = 0, fib2 = 1, fib3, num = 50, count = 0;
 
@@ -23,5 +23,5 @@ void main(void)
 		}
 	}
 	printf("\n");
-	return;
+	return (0);
 }
