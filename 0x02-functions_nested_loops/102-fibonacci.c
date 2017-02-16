@@ -20,7 +20,7 @@ int main(void)
 		{
 			printf("%ld", fib3);
 		}
-		else 
+		else
 			printf("%ld, ", fib3);
 	}
 	printf("\n");
