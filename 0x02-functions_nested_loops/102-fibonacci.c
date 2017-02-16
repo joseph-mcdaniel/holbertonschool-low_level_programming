@@ -17,7 +17,7 @@ int main(void)
 		printf("%ld, ", fib3);
 		fib1 = fib2;
 		fib2 = fib3;
-		if (count <= num)
+		if (count == num)
 		{
 			printf("%ld", fib3);
 		}
