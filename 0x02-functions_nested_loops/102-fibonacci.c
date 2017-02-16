@@ -8,15 +8,20 @@
  */
 void main(void)
 {
-	int fib1 = 0, fib2 = 1, fib3, num = 50, count = 0;
+	long int fib1 = 0, fib2 = 1, fib3, num = 50, count = 0;
 
 	while (count < num)
 	{
 		fib3 = fib1 + fib2;
 		count++;
-		printf("%d\n", fib3);
+		printf("%ld, ", fib3);
 		fib1 = fib2;
 		fib2 = fib3;
+		if (count <= num)
+		{
+			printf("%ld", fib3);
+		}
 	}
-	return (0);
+	printf("\n");
+	return;
 }
