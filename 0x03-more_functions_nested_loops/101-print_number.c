@@ -1,19 +1,26 @@
 #include "holberton.h"
 /**
- * print_number - print int using putchar
+ * print_unum - print unsigned integer
  * @n: input value
  *
- * Return: 0
+ * Return: void
  */
 
 
-void print_unumber(unsigned int n)
+void print_unum(unsigned int n)
 {
 	if (n / 10 != 0)
 		print_number(n / 10);
 	_putchar((n % 10) + '0');
 }
 
+/**
+ * print_number - print negative
+ * call unsigned
+ * @n: input value
+ *
+ * Return: void
+ */
 void print_number(int n)
 {
 	if (n < 0)
@@ -21,5 +28,5 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
-	print_unumber((unsigned int) n);
+	print_unum((unsigned int) n);
 }
