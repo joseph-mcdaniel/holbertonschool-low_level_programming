@@ -9,3 +9,4 @@ int help_root(int root, int n);
 int is_prime_number(int n);
 int help_prime(int n, int x);
 int is_palindrome(char *s);
+int _check(char *s, int l);
