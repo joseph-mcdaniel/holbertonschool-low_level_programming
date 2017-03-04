@@ -1,0 +1,1 @@
+Goals for this project: How to use arguments passed to your program. Of the two we know, understanding which prototype of main to use for a specific case. How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
