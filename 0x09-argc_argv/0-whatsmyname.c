@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-char main(int argv __attribute__((unused)), char *argv[])
+char main(int __attribute__((unused)) argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);
