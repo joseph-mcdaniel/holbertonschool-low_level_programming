@@ -16,6 +16,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
+		free(str);
 		return (NULL);
 	}
 	if (ptr == NULL)
@@ -27,6 +28,7 @@ char *_strdup(char *str)
 	{
 		*(ptr + i) = *(str + i);
 	}
+
 	return (ptr);
 }
 
