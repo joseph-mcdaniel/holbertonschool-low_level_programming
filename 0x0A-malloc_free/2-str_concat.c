@@ -15,16 +15,14 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 	{
-		s1 = "";
-		return (NULL);
+		string1 = 0;
 	}
 	else
 		string1 = _strlen(s1);
 
 	if (s2 == NULL)
 	{
-		s2 = "";
-		return (NULL);
+		string2 = 0;
 	}
 	else
 		string2 = _strlen(s2);
@@ -41,7 +39,7 @@ char *str_concat(char *s1, char *s2)
 		catstring[i] = s2[j];
 	}
 	return (catstring);
-	catstring[i] = '\0';
+
 	catstring[j] = '\0';
 }
 /**
