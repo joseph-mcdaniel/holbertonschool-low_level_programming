@@ -34,11 +34,12 @@ char *str_concat(char *s1, char *s2)
 	{
 		catstring[i] = s1[i];
 	}
-	for (j = s1[i]; s2[j] != '\0'; j++)
+	for (j = 0; s2[j] != '\0'; i++, j++)
 	{
-		catstring[j] = s2[j];
+		catstring[i] = s2[j];
 	}
 	return (catstring);
+	catstring[j] = '\0';
 }
 /**
  * _strlen - return length of
