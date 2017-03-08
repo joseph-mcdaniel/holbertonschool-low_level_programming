@@ -20,6 +20,7 @@ char *_strdup(char *str)
 	}
 	if (ptr == NULL)
 	{
+		free(ptr);
 		return (NULL);
 	}
 	for (i = 0; str[i] != '\0'; i++)
