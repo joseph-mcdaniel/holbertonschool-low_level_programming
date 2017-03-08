@@ -41,6 +41,7 @@ char *str_concat(char *s1, char *s2)
 		catstring[i] = s2[j];
 	}
 	return (catstring);
+	catstring[i] = '\0';
 	catstring[j] = '\0';
 }
 /**
