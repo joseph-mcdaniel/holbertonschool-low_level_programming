@@ -11,24 +11,22 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *catstring;
-	int i, j, string1, string2;
+	int i, j, string1 = 0, string2 = 0;
 
 	if (s1 == NULL)
 	{
 		s1 = "";
 	}
-	else
-		string1 = _strlen(s1);
+	string1 = _strlen(s1);
 
 	if (s2 == NULL)
 	{
 		s2 = "";
 	}
-	else
-		string2 = _strlen(s2);
-
+	string2 = _strlen(s2);
+	string2++;
 	catstring =  malloc((string1 * sizeof(char)) +
-			    (string2 * sizeof(char)) + 1);
+			    (string2 * sizeof(char)));
 
 	for (i = 0; s1[i] != '\0'; i++)
 	{
@@ -38,8 +36,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		catstring[i] = s2[j];
 	}
-
-	catstring[j] = '\0';
 	return (catstring);
 
 }
