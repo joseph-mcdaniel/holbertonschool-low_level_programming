@@ -1,5 +1,5 @@
 #include "dog.h"
-#include "stdlib.h"
+#include <stdlib.h>
 /**
  * init_dog - init struct dog
  * @d:points to dog
