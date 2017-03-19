@@ -7,12 +7,9 @@
  */
 void print_all(const char * const format, ...)
 {
-	va_list args;
-	char *test;
-	int i, prints;
+	va_list args; char *test; int i, prints;
 
-	va_start(args, format);
-	i = 0;
+	va_start(args, format); i = 0;
 	while (format[i] == '\0')
 	{
 		printf("\n");
@@ -49,6 +46,5 @@ void print_all(const char * const format, ...)
 			printf(", ");
 		i++;
 	}
-	va_end(args);
 	printf("\n");
 }
