@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_noteint_end - add new node at the end of linked list
+ * add_nodeint_end - add new node at the end of linked list
  * @head: pointer to the address of a pointer to head
  * @n: input value
  *
