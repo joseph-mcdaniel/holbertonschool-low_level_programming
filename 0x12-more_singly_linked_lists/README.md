@@ -10,4 +10,3 @@ data set.
 access to the individual elements. If you want to access a particular item
 then you have to start at the head and follow the references.
 * Another disadvantage of linked lists vs array is that it uses more memory.
-* Build and use linked lists
