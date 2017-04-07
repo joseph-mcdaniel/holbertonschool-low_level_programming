@@ -66,8 +66,5 @@ int main(int argc, char *argv[])
 			w_error(argv[2]);
 		rd_val = read(r_fd, buffer, BUF_SIZE);
 	}
-	rd_val = close(r_fd);
-	wr_val = close(w_fd);
-	return (rd_val == -1 ? c_error(r_fd) : wr_val == -1 ?
-		c_error(w_fd) : 0);
+	return (close(r_fd) == -1 ? c_error(r_fd, NULL) : close(w_fd) == -1 ? c_error(w_fd, NULL) : 0);
 }
