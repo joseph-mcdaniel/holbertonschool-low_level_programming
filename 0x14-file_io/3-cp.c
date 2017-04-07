@@ -68,5 +68,6 @@ int main(int argc, char *argv[])
 	}
 	close(r_fd);
 	close(w_fd);
-	return (0);
+	return (close(r_fd) == -1 ? c_error(arg[1]) : close(w_fd) == -1 ?
+		c_error(arg[2]) : 0);
 }
