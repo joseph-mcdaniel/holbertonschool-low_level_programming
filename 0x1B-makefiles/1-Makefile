@@ -1,0 +1,7 @@
+# compiler variable
+CC = gcc
+# .c files variable
+SRC = holberton.c main.c
+
+all: $(SRC)
+	$(CC) $(SRC) -o holberton
