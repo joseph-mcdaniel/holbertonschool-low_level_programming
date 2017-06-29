@@ -11,8 +11,8 @@ RM = rm
 # compiler flags variable
 CFLAGS = -Wall -Werror -Wextra -pedantic
 # only compile update source files
-all: $(SRC) $(NAME)
-
+all: $(OBJ)
+	$(CC) -o $(NAME) $(OBJ)
 clean:
 	$(RM) -f *~ $(NAME)
 
