@@ -1,0 +1,11 @@
+# compiler variable
+CC = gcc
+# .c files variable
+SRC = main.c holberton.c
+# .o files variable
+OBJ = $(SRC:.c=.o)
+# executable variable
+NAME = holberton
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
