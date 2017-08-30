@@ -22,15 +22,16 @@ int binary_search(int *array, size_t size, int value)
 		{
 			if (i == start)
 				printf("Searching in array: ");
-			printf("%d, ", array[i]);
 			if (i == end)
 				printf("%d\n", array[i]);
+			else
+				printf("%d, ", array[i]);
 		}
 		mid = (start + end) / 2;
 		if (array[mid] == value)
 			return (mid);
 		else if (array[mid] > value)
-			end = mid - 1;
+			end = mid;
 		else
 			start = mid + 1;
 	}
